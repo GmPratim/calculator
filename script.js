@@ -1,7 +1,7 @@
 const display = document.getElementById("display");
 let isCalculated = false;
 
-function appendToDisplay(input) {
+function appendToDispla(input) {
   if (isCalculated) {
     display.value = "";
     isCalculated = false;
